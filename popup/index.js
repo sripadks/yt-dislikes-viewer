@@ -1,6 +1,6 @@
 function save_options() {
     var api = document.getElementById('wptk').value;
-      chrome.storage.sync.set({
+      browser.storage.sync.set({
       savedApi: api,
     }, function() {
       // Update status to let user know options were saved.

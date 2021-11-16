@@ -1,5 +1,5 @@
 // This is a modified script from the original one by aquelemiguel.
-chrome.storage.sync.get('savedApi', ({savedApi}) => {
+browser.storage.sync.get('savedApi', ({savedApi}) => {
 (function () {
   const YT_API_KEY = savedApi;
   const BASE_ENDPOINT = "https://www.googleapis.com/youtube/v3";
