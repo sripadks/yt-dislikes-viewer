@@ -4,12 +4,12 @@
   "version": "1.0",
   "manifest_version": 2,
   "background": {
-    "scripts": "service.js"
+    "scripts": ["service.js"]
   },
-  "action" : {
-    "default_popup" : "popup/index.html",
-    "default_title" : "A popup will come"
-   },
+  "browser_action": {
+    "default_popup": "popup/index.html",
+    "default_title": "A popup will come"
+  },
   "permissions": [
     "tabs",
     "notifications",
